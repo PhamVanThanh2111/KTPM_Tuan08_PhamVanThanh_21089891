@@ -1,0 +1,47 @@
+[
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439041" },
+    "productId": { "$oid": "607f1f77bcf86cd799439021" },
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439042" },
+    "productId": { "$oid": "607f1f77bcf86cd799439024" },
+    "quantity": 2
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439043" },
+    "productId": { "$oid": "607f1f77bcf86cd799439022" },
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439044" },
+    "productId": { "$oid": "607f1f77bcf86cd799439023" },
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439045" },
+    "productId": { "$oid": "607f1f77bcf86cd799439025" },
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439046" },
+    "productId": { "$oid": "607f1f77bcf86cd799439024" },
+    "quantity": 3
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439047" },
+    "productId": { "$oid": "607f1f77bcf86cd799439021" },
+    "quantity": 2
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439048" },
+    "productId": { "$oid": "607f1f77bcf86cd799439022" },
+    "quantity": 1
+  },
+  {
+    "_id": { "$oid": "807f1f77bcf86cd799439049" },
+    "productId": { "$oid": "607f1f77bcf86cd799439025" },
+    "quantity": 1
+  }
+]

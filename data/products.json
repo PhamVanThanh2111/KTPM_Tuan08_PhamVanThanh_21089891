@@ -1,0 +1,47 @@
+[
+  {
+    "_id": {
+      "$oid": "607f1f77bcf86cd799439021"
+    },
+    "name": "iPhone 13 Pro",
+    "description": "Điện thoại iPhone 13 Pro 128GB, màn hình Super Retina XDR",
+    "price": 24990000,
+    "stock": 50
+  },
+  {
+    "_id": {
+      "$oid": "607f1f77bcf86cd799439022"
+    },
+    "name": "Samsung Galaxy S21 Ultra",
+    "description": "Điện thoại Samsung Galaxy S21 Ultra 5G 128GB, camera 108MP",
+    "price": 21990000,
+    "stock": 35
+  },
+  {
+    "_id": {
+      "$oid": "607f1f77bcf86cd799439023"
+    },
+    "name": "MacBook Air M1",
+    "description": "Laptop MacBook Air M1 2020, 8GB/256GB, màn hình Retina",
+    "price": 25990000,
+    "stock": 20
+  },
+  {
+    "_id": {
+      "$oid": "607f1f77bcf86cd799439024"
+    },
+    "name": "AirPods Pro",
+    "description": "Tai nghe không dây AirPods Pro chống ồn chủ động",
+    "price": 5990000,
+    "stock": 100
+  },
+  {
+    "_id": {
+      "$oid": "607f1f77bcf86cd799439025"
+    },
+    "name": "Apple Watch Series 7",
+    "description": "Đồng hồ thông minh Apple Watch Series 7, 45mm, GPS",
+    "price": 12990000,
+    "stock": 30
+  }
+]

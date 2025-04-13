@@ -1,0 +1,47 @@
+[
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799439011"
+    },
+    "name": "Nguyễn Văn A",
+    "email": "nguyenvana@gmail.com",
+    "phone": "0912345678",
+    "address": "123 Đường Lê Lợi, Quận 1, TP.HCM"
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799439012"
+    },
+    "name": "Trần Thị B",
+    "email": "tranthib@yahoo.com",
+    "phone": "0987654321",
+    "address": "456 Đường Nguyễn Huệ, Quận 3, TP.HCM"
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799439013"
+    },
+    "name": "Lê Văn C",
+    "email": "levanc@gmail.com",
+    "phone": "0909123456",
+    "address": "789 Đường Cách Mạng Tháng 8, Quận Tân Bình, TP.HCM"
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799439014"
+    },
+    "name": "Phạm Thị D",
+    "email": "phamthid@outlook.com",
+    "phone": "0978123456",
+    "address": "321 Đường 3/2, Quận 10, TP.HCM"
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799439015"
+    },
+    "name": "Hoàng Văn E",
+    "email": "hoangve@gmail.com",
+    "phone": "0912876543",
+    "address": "654 Đường Lý Thường Kiệt, Quận Gò Vấp, TP.HCM"
+  }
+]

@@ -1,0 +1,40 @@
+version: '3.8'
+services:
+
+  product-service:
+    build: ./product-service
+    ports: [ "8081:8081" ]
+    depends_on: [ mongo-product ]
+  
+  order-service:
+    build: ./order-service
+    ports: [ "8082:8082" ]
+    depends_on: [ mongo-order, rabbitmq ]
+
+  customer-service:
+    build: ./customer-service
+    ports: [ "8083:8083" ]
+    depends_on: [ mongo-customer ]
+
+  api-gateway:
+    build: ./api-gateway
+    ports: [ "8080:8080" ]
+    depends_on: [ product-service, order-service, customer-service ]
+
+  mongo-product:
+    image: mongo
+    ports: [ "27018:27017" ]
+
+  mongo-order:
+    image: mongo
+    ports: [ "27019:27017" ]
+
+  mongo-customer:
+    image: mongo
+    ports: [ "27020:27017" ]
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
